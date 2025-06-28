@@ -29,13 +29,14 @@
   <script>
     // 🔄 Replace with your Firebase config
     const firebaseConfig = {
-      apiKey: "YOUR_API_KEY",
-      authDomain: "YOUR_PROJECT.firebaseapp.com",
-      projectId: "YOUR_PROJECT_ID",
-      storageBucket: "YOUR_PROJECT.appspot.com",
-      messagingSenderId: "XXXXXX",
-      appId: "APP_ID"
-    };
+  apiKey: "AIzaSyCu_VvCJuB0uGP1ROBA8BN0NKaH6oIFTD2w",
+  authDomain: "krishi-data.firebaseapp.com",
+  projectId: "krishi-data",
+  storageBucket: "krishi-data.appspot.com",
+  messagingSenderId: "395903996011",
+  appId: "1:395903996011:web:696965a98299528e29612e",
+  measurementId: "G-CF3YW6L9DX"
+};
 
     firebase.initializeApp(firebaseConfig);
     const db = firebase.firestore();
